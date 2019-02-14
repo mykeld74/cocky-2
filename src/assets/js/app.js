@@ -95,7 +95,7 @@ $('[data-app-dashboard-toggle-shrink]').on('click', function(e) {
   $(this).parents('.app-dashboard').toggleClass('shrink-medium').toggleClass('shrink-large');
 });
 
-var date1 = new Date("01/16/2019");
+var date1 = new Date("02/14/2019");
 var date2 = new Date();
 var timeDiff = Math.abs(date2.getTime() - date1.getTime());
 var diffDays = Math.ceil((((timeDiff / 1000)/60)/60)/24);
