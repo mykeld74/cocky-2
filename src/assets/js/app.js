@@ -100,7 +100,7 @@ $("[data-app-dashboard-toggle-shrink]").on("click", function (e) {
     .toggleClass("shrink-large");
 });
 
-var date1 = new Date("07/27/2020");
+var date1 = new Date("07/28/2020");
 var date2 = new Date();
 var timeDiff = Math.abs(date2.getTime() - date1.getTime());
 var diffDays = Math.ceil(timeDiff / 1000 / 60 / 60 / 24);
